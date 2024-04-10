@@ -82,7 +82,7 @@ p{
     letter-spacing: -1px;
     font-family: poppinslight;
 }
-img{
+#foto-perfil{
     width: 580px;
     animation: imagem 2s infinite  linear;
     transition: 2s;
@@ -126,4 +126,13 @@ input[type=submit]:hover{
         transform: translate(0px, 30px);
         transition: 2s;
     }
+}
+/*MENU MOBILE*/
+.mobile-menu-icon{
+    display: none;
+
+
+}
+.mobile-menu{
+    display: none;
 }

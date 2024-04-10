@@ -1,11 +1,11 @@
-const menuBar = document.querySelectorAll(".menu-bar");
+let menuBar = document.querySelector(".mobile-menu");
 
 
 
-function openMenu(){
-    if(menuBar.style.display === "block"){
-        menuBar.style.display = "none";
+function showMenu(){
+    if(menuBar.classList.contains("open")){
+        menuBar.classList.remove("open")
     }else{
-        menuBar.style.display =" block"
+        menuBar.classList.add( "open" ); 
     }
 }

@@ -26,7 +26,7 @@
    .imagem{
     margin: auto;
    }
-   img{
+   #foto-perfil{
     width: 100%;
     margin-top: 20px;
     animation: none;
@@ -46,6 +46,25 @@
     align-self: center;
     margin: 30px;
    }
+   /*MENU MIBILE*/
+   .mobile-menu-icon{
+      display: block;
+      
+   }
+   .mobile-menu-icon button{
+      background-color: transparent;
+      border: none;
+      cursor: pointer;
+     
+   }
+   .mobile-menu ul{
+       display: flex;
+       flex-direction: column;
+       padding-bottom: 8px;
+       text-align: center;
+   }
+   .open{
+      display: block;
+   }
 
-    
 }
