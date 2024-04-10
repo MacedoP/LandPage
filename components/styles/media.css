@@ -1,0 +1,50 @@
+@media (max-width: 600px) {
+   header{
+    display: block;
+    flex-direction: column;
+   }
+   #title{
+    text-align: center;
+   }
+   ul{
+    display: none;
+   }
+   #icon-menu{
+    font-size: 40px;
+    float: right;
+    margin-right: 20px;
+   }
+   main{
+    flex-direction: column;
+   }
+   h2{
+    flex-wrap: wrap;
+    font-size: 30px;
+    text-align: center;
+    line-height: 18px;
+   }
+   .imagem{
+    margin: auto;
+   }
+   img{
+    width: 100%;
+    margin-top: 20px;
+   }
+   p{
+    margin: auto;
+   }
+   form{
+    margin: 0 auto;
+   }
+   #btn-inscreva-se{
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+}
+   input[type=submit]{
+    align-self: center;
+    margin: 30px;
+   }
+
+    
+}
