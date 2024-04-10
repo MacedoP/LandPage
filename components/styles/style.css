@@ -84,6 +84,8 @@ p{
 }
 img{
     width: 580px;
+    animation: imagem 2s infinite  linear;
+    transition: 2s;
 }
 form{
     display: flex;
@@ -112,4 +114,16 @@ input[type=submit] {
 }
 input[type=submit]:hover{
     cursor: pointer;
+}
+
+/*Mexendo nossa foto*/
+@keyframes imagem{
+    from{
+        transform: translate(0px, 0px);
+        transition: 2s;
+    }
+    to{
+        transform: translate(0px, 30px);
+        transition: 2s;
+    }
 }
