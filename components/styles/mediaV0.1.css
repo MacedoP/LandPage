@@ -95,75 +95,7 @@
         text-align: center;
     }
 }
-/*Main*/
-main{
-    display: flex;
-    flex-direction: row;
-    margin-top: 50px;
-}
-span{
-    color: rgb(132,14,201);
-}
-p{
-    line-height: 30px;
-    text-align: justify;
-    max-width: 400px;
-    letter-spacing: -1px;
-    font-family: poppinslight;
-}
-#foto-perfil{
-    width: 580px;
-    animation: imagem 2s infinite  linear;
-    transition: 2s;
-}
-form{
-    display: flex;
-    flex-direction: column;
-    width: 70%;
-    
-}
-input{
-    margin-top: 20px;
-    height: 20px;
-    border-radius: 10px;
-    border: none;
-    outline: none;
-    padding: 10px;
-    font-size: 15px;
-
-}
-input[type=submit] {
-    height: 50px;
-    width: 50%;
-    background-color: rgb(132,14,201);
-    color: #fff;
-    font-weight: bold;
-    text-align: center;
-    padding: 10px;
-}
-input[type=submit]:hover{
-    cursor: pointer;
-}
-
-/*Mexendo nossa foto*/
-@keyframes imagem{
-    from{
-        transform: translate(0px, 0px);
-        transition: 2s;
-    }
-    to{
-        transform: translate(0px, 30px);
-        transition: 2s;
-    }
-}
-/*MENU MOBILE*/
-.mobile-menu-icon{
-    display: none;
 
 
-}
-.mobile-menu{
-    display: none;
-}
 
     
